@@ -5,6 +5,6 @@ router.get("/favorites", mangasControllers.getFavoriteMangas);
 router.get("/search", mangasControllers.oneMangaByTitle);
 router.get("/", mangasControllers.allMangas);
 router.post("/like-manga", mangasControllers.addFavoriteMangas);
-router.delete("/unlike-mangasss", mangasControllers.deleteFavoriteMangas);
+router.delete("/unlike-manga", mangasControllers.deleteFavoriteMangas);
 
 module.exports = router;
