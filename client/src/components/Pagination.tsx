@@ -6,14 +6,15 @@ type PaginationProps = {
 };
 
 const Pagination = ({ handlePageChange, currentPage }: PaginationProps) => {
+
     const renderButtons = () => {
         const buttons = [];
-        for (let i = 1; i <= 10; i++) {
+        for (let i = 1; i <= 4; i++) {
             buttons.push(
                 <button
                     key={i}
-                    className={`w-10 h-10 px-2 py-1 mx-1 text-sm font-semibold text-white rounded-md transition-all ease-in 2s ${
-                        i === currentPage ? 'bg-red-500' : 'bg-light-card dark:bg-dark-card'
+                    className={`w-10 h-10 mx-1 text-sm font-semibold rounded-t-md transition-all ease-in 2s ${
+                        i === currentPage ? 'bg-element-secondary text-background-primary' : 'bg-none text-element-secondary'
                     }`}
                     onClick={() => handlePageChange(i)}
                 >
@@ -25,7 +26,7 @@ const Pagination = ({ handlePageChange, currentPage }: PaginationProps) => {
     };
 
     return (
-        <div className='my-6'>
+        <div className='m'>
             {renderButtons()}
         </div>
     );

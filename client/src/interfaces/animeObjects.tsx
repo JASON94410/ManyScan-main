@@ -5,7 +5,7 @@ type statistics = {
     numberOfVotes: number;
 };
 
-export interface MangaObjects {
+export default interface AnimeObjects {
     id: string;
     title: string;
     description?: string;
@@ -22,20 +22,25 @@ export interface MangaObjects {
     cover: string;
     authorId: string;
     authorName: string;
-    chapters?: Chapters[];
 }
 
-export interface Chapters {
-    id: string;
-    title: string;
-    chapterNumber: string;
-    language: string;
-}
+export interface MangaObjects {
+    
+  id: string;
+  title: string;
+  description?: string;
+  type: string | 'inconnu';
+  status: status;
+  year: number;
+  statistics: statistics;
+  createdAt: number;
+  updatedAt: number;
+  language: string;
+  lastChapter?: string;
+  coverId: string;
+  coverFileName: string;
+  cover: string;
+  authorId: string;
+  authorName: string;
 
-export interface Relationship {
-    type: string;
-    attributes?: {
-        name?: string;
-        fileName?: string;
-    };
 }

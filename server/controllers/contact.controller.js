@@ -5,10 +5,12 @@ exports.getContactMessages = async (req, res) => {
     const messages = await Contact.find({});
     res.status(200).json(messages);
   } catch (error) {
-    res.status(400).json({
-      message: "Erreur lors de la récupération des messages",
-      error: error.message,
-    });
+    res
+      .status(400)
+      .json({
+        message: "Erreur lors de la récupération des messages",
+        error: error.message,
+      });
   }
 };
 
@@ -26,17 +28,6 @@ exports.addContactMessage = async (req, res) => {
       message: "Erreur lors de l'ajout du message",
       error: error.message,
     });
-  }
-};
-
-exports.markMessageAsRead = async (req, res) => {
-  try {
-    const messageId = req.params.id;
-    await Contact.findByIdAndUpdate(messageId, { read: true });
-
-    res.status(200).json({ message: "Message marqué comme lu" });
-  } catch (error) {
-    res.status(500).json({ message: "Erreur serveur", error: error.message });
   }
 };
 

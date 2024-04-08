@@ -1,15 +1,11 @@
-const express = require("express");
 const User = require("../models/user.model.js");
 const JWT = require("jsonwebtoken");
-const cookieParser = require("cookie-parser");
+
 const generateRefreshToken = require("../utils/refresh-token.js");
 const generateResetToken = require("../utils/forgot-password-token.js");
 const setTokenExpiration = require("../utils/setToken-expiration.js");
 const { sendEmailReinitPassword } = require("./notification.controller.js");
 const { sendEmailSuccessRestPassword } = require("./notification.controller");
-const app = express();
-
-app.use(cookieParser());
 
 require("dotenv").config({ path: "../config/.env" });
 
@@ -73,19 +69,16 @@ module.exports.signin = async (req, res) => {
       {
         userId: user.id,
         email: user.email,
-        role: user.role || "User",
       },
       process.env.SECRET_TOKEN_KEY,
       { expiresIn }
     );
 
-    res.cookie("token", token, {
-      maxAge: expiresIn * 1000,
-      httpOnly: true,
-    });
-
     // Génère Refresh Token
     const refresh_token = generateRefreshToken(user.id);
+
+    console.log("ID de l'utilisateur :", user.id); // Ajout d'un console.log
+    console.log("Token généré :", token); // Ajout d'un console.log
 
     // Renvoyer le token et le username dans la réponse
     const role = user.role || "User";

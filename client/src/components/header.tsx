@@ -2,7 +2,7 @@
 
 import { useTheme } from 'next-themes';
 import AppLogo from './svg/AppLogo';
-import Navigation from './navigation';
+import Navigation from './Navigations';
 import Toggle from './ToggleDarkMode';
 import Separation from './svg/Separation';
 import SearchByTitle from './SearchByTitle';

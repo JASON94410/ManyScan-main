@@ -45,6 +45,7 @@ const userSchema = mongoose.Schema({
     default: null,
   },
 });
+
 // function crypte le password avant le save register
 userSchema.pre("save", async function (next) {
   if (this.isModified("password")) {
@@ -54,13 +55,12 @@ userSchema.pre("save", async function (next) {
   next();
 });
 // Function décrypte le password de l'utilisateur quand login
+userSchema.statics.login = async function(email, password) { 
+    const user = await this.findOne({ email });
 
-userSchema.statics.login = async function (email, password) {
-  const user = await this.findOne({ email });
-
-  if (!user) {
-    return false;
-  }
+    if (!user) {
+        return false;
+    }
 
   const isPasswordMatch = await bcrypt.compare(password, user.password);
   if (!isPasswordMatch) {
@@ -69,12 +69,12 @@ userSchema.statics.login = async function (email, password) {
 
   user.setOnlineStatus(true);
 
-  // Génération du refresh token et ajout à la liste des refresh tokens
-  const refreshToken = generateRefreshToken();
-  user.refreshTokens.push(refreshToken);
-  await user.save();
+    // Génération du refresh token et ajout à la liste des refresh tokens
+    const refreshToken = generateRefreshToken();
+    user.refreshTokens.push(refreshToken);
+    await user.save();
 
-  return true;
+    return true;
 };
 // Function décrypte le password et modifie le password quand l'user est logué
 userSchema.methods.changePassword = async function (newPassword) {

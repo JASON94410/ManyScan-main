@@ -33,7 +33,8 @@ const corsOptions = {
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   preflightContinue: false,
 };
-app.use(cors());
+
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
@@ -46,6 +47,7 @@ app.use("/api", reviewRouter);
 app.use("/api", contactRouter);
 
 app.get("/", (req, res) => {
-  res.send("Bienvenue sur Manyscan!");
+  res.send("Bienvenue sur ManyScan!");
 });
+
 module.exports = app;

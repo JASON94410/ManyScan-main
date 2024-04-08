@@ -14,7 +14,6 @@
     "@prisma/client": "^5.6.0",
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
-    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "dotenv": "^16.3.1",
@@ -25,8 +24,9 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.0.2",
     "nodemon": "^3.0.1",
-    "punycode": "^2.3.1",
+
     "sib-api-v3-sdk": "^8.5.0",
+    "punycode": "^2.3.1",
     "uuid": "^9.0.1"
   },
   "devDependencies": {

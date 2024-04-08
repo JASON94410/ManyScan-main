@@ -23,12 +23,10 @@ const contactSchema = mongoose.Schema({
     required: [true, "Veuillez saisir un message"],
     trim: true,
   },
-
-  read: {
-    type: Boolean,
-    default: false,
+  picture: {
+    type: String,
+    default: null, // Mettez 'null' si aucune image n'est ajoutée
   },
-
   createdAt: {
     type: Date,
     default: Date.now, // Enregistre la date de soumission du formulaire

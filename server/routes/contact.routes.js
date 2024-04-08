@@ -10,9 +10,6 @@ router.post(
   validateContactForm,
   contactController.addContactMessage
 );
-
-router.patch("/contact/:id/mark-read", contactController.markMessageAsRead);
-
 router.delete("/contact/:id", contactController.deleteContactMessage);
 
 module.exports = router;

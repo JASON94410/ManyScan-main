@@ -4,21 +4,26 @@ import { useTheme } from 'next-themes';
 import Link from 'next/link';
 
 const SearchByTitle = () => {
-
     const { systemTheme, theme, setTheme } = useTheme();
     const router = useRouter();
     const [searchTerm, setSearchTerm] = useState<string>('');
-    const [searchResults, setSearchResults] = useState<any[]>([])
+    const [searchResults, setSearchResults] = useState<any[]>([]);
 
-    const handleSearchChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const handleSearchChange = async (
+        event: React.ChangeEvent<HTMLInputElement>
+    ) => {
         const value = event.target.value;
         setSearchTerm(value);
 
         if (value.length > 0) {
-            const response = await fetch(`https://api.mangadex.org/manga?title=${encodeURIComponent(value)}`);
+            const response = await fetch(
+                `https://api.mangadex.org/manga?title=${encodeURIComponent(
+                    value
+                )}`
+            );
             const data = await response.json();
-            console.log("API Response:", data);
-            if (data.result === "ok" && Array.isArray(data.data)) {
+            console.log('API Response:', data);
+            if (data.result === 'ok' && Array.isArray(data.data)) {
                 setSearchResults(data.data); // Mettez à jour avec le tableau de résultats
             } else {
                 setSearchResults([]); // Réinitialisez si la réponse n'est pas ce qui est attendu
@@ -28,18 +33,20 @@ const SearchByTitle = () => {
         }
     };
 
-    const handleFormSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-        event.preventDefault(); 
-        console.log("Form submitted with searchTerm:", searchTerm);
+    const handleFormSubmit = async (
+        event: React.FormEvent<HTMLFormElement>
+    ) => {
+        event.preventDefault();
+        console.log('Form submitted with searchTerm:', searchTerm);
     };
 
     const navigateToMangaDetail = (mangaId: string) => {
-        router.push(`/animes/${mangaId}`);
+        router.push(`/manga/${mangaId}`);
     };
-    
+
     return (
         <form className='flex'>
-            <div className="relative">
+            <div className='relative'>
                 <input
                     type='text'
                     className='w-64 bg-element-secondary placeholder:text-background-primary text-background-secondary font-sans font- rounded-3xl py-2 px-4 m-2 text-dark font-light outline-none'
@@ -47,7 +54,7 @@ const SearchByTitle = () => {
                     value={searchTerm}
                     onChange={handleSearchChange}
                 />
-                <div className="absolute top-3 right-6 ">
+                <div className='absolute top-3 right-6 '>
                     <button type='submit' className=''>
                         <svg
                             className='fill-background-primary'
@@ -62,13 +69,12 @@ const SearchByTitle = () => {
                     </button>
                 </div>
                 {searchResults.length > 0 && (
-                    <div className="absolute left-0 right-0 mt-1 bg-white border rounded shadow-lg z-10">
+                    <div className='absolute left-0 right-0 mt-1 bg-white border rounded shadow-lg z-10'>
                         {searchResults.map((manga) => (
                             <a
                                 key={manga.id}
                                 onClick={() => navigateToMangaDetail(manga.id)}
-                                className='block p-2 hover:bg-gray-100'
-                            >
+                                className='block p-2 hover:bg-gray-100'>
                                 {manga.attributes.title.en}
                             </a>
                         ))}

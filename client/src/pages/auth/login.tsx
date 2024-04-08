@@ -2,21 +2,16 @@ import { useState } from 'react'
 import { useRouter } from 'next/router'
 import { useAuth } from './authContext';
 import ForgotPasswordModal from "./ForgotPasswordModal";
-import { setCookie } from 'cookies-next';
-
 
 
 export default function LoginForm() {
     const { login } = useAuth();
+
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [showModal, setShowModal] = useState(false);
     const [message, setMessage] = useState('');
-    const [showModal2, setShowModal2] = useState(false);
-    
-  
 
- 
     const router = useRouter();
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -45,16 +40,11 @@ export default function LoginForm() {
             const role = userData.role || 'User';
     
             if (token) {
-                const expirationDate = new Date();
-                expirationDate.setDate(expirationDate.getDate() + 1);
-                setCookie('token', token, { expires: expirationDate });
-                setCookie('userId', id, { expires: expirationDate });
+                localStorage.setItem('token', token);
+                localStorage.setItem('userId', id); 
               
                 login({ username ,token, role ,id}); // Mise à jour de l'état avec le token et le username
-                setShowModal2(true);
-                setTimeout(() => {
-                    router.push('/')
-                }, 3000);
+                router.push('/'); // Redirection vers la page d'accueil
 
             } else {
                 console.error('Token non reçu')
@@ -65,7 +55,7 @@ export default function LoginForm() {
     };
 
     const handleBack = () => {
-        router.push('/') 
+        router.push('/') // Redirection vers la page d'accueil
     };
 
     const handleForgotPassword = () => {
@@ -79,14 +69,6 @@ export default function LoginForm() {
 
     return (
         <div className='flex justify-center items-center h-screen bg-gray-100'>
-              {showModal2 && (
-            <div className="modal-overlay">
-                <div className="modal-content">
-                    Connecté avec succès!
-                    
-                </div>
-            </div>
-        )}
             <div className='absolute top-0 left-0 p-4'>
                 <button
                     onClick={handleBack}
@@ -126,7 +108,9 @@ export default function LoginForm() {
                         />
                     </div>
                     <div className='mb-6'>
-                        <label htmlFor='terms' className='inline-flex items-center'>
+                        <label
+                            htmlFor='terms'
+                            className='inline-flex items-center'>
                             <input
                                 type='checkbox'
                                 id='terms'

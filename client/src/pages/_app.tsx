@@ -1,9 +1,7 @@
 import localFonts from 'next/font/local';
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
-import { AuthProvider } from './auth/authContext';
-
-
+import { AuthProvider } from '../pages/auth/authContext';
 
 const ArialBlack = localFonts({
     src: '../../public/fonts/ArialBlack.ttf',
@@ -13,16 +11,10 @@ const ArialBlack = localFonts({
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
-
-    
-    
         <AuthProvider>
         <main className={ArialBlack.className}>
             <Component {...pageProps} />
         </main>
         </AuthProvider>
-   
-        
     );
-
 }

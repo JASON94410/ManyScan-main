@@ -1,230 +1,117 @@
 [
   {
-    "id": "d14354de-6af5-4b92-825d-47686d3fa145",
-    "title": "Fate/Grand Order -Epic of Remnant- Pseudo-Singularity IV: The Forbidden Advent Garden, Salem - Heretical Salem",
-    "description": "As a result of the efforts of the people of Chaldea, the human incineration plan of those who called themselves the Magic King was bitterly stopped at the water's edge, and the destiny of the world seemed to be breathing again. However, suddenly, the singularity of the same level as the singularity so far is observed in modern times. A master who has opened up the future once again puts himself into a layershift to calm down the \"subspecies singularities\" that appeared in the cursed land \"Salem.\"",
-    "type": "shounen",
-    "status": "ongoing",
-    "year": 2019,
-    "createAt": "2020-01-16T00:38:04+00:00",
-    "updatedAt": "2023-09-10T13:54:35+00:00",
-    "language": "es-la es fr ru vi en",
-    "lastChapter": "29534768-88ab-4e40-8316-566a4f0c4dba",
-    "statistics": {
-      "rating": 8.8182,
-      "numberOfVotes": 88
-    },
-    "cover": "https://uploads.mangadex.org/covers/d14354de-6af5-4b92-825d-47686d3fa145/0e68820a-458a-4bd8-9cf9-4af6c330966c.jpg",
-    "authorId": "7b9374fb-9332-43d9-9371-ed5383ff95c6",
-    "authorName": "TYPE-MOON"
-  },
-  {
-    "id": "192aa767-2479-42c1-9780-8d65a2efd36a",
-    "title": "Gachiakuta",
-    "description": "A slum where criminals' descendants live... People beyond the border look down and discriminate them as \"tribal people.\" Ludo, an orphan boy, lives in the slum with his foster parent, Legt, and makes a living using his extraordinary physical abilities. However, one day, he was accused for a crime he didn't commit., and is thrown into the \"abyss\" which even the slum people fear.\n\n---\nLiving in the slums of a wealthy town, Rudo and his foster father Legto try to coexist with the rest of the town's residents, but Rudo despises the wastefulness of the upper class. Ignoring the warnings from those around him, Rudo regularly rummages through the town's garbage in search of anything useful or valuable to save from the \"Abyss\"—a massive hole where anything considered trash is dumped, including people. Rudo's biological father was one such person, having been thrown into the Abyss after he was accused of murder.\n\nOne day, after running into a mysterious figure on the way home, Rudo returns to find Legto's dying body on the floor. He is immediately found at the scene by the authorities and is charged with murder. No one believes his claims of innocence, and he is thrown into the Abyss. Instead of dying, however, he finds himself in a strange, foul-smelling place surrounded by monsters made out of trash.\n\nWhen Rudo is attacked by said monsters, he is saved by a man named Engine, who reveals himself to be a \"janitor\"—someone who uses special weapons called \"jinkis\" to combat these creatures. In order to get his revenge on the one who killed Legto, Rudo reluctantly becomes a janitor to fight his way back up and out of the Abyss.\n\n---\n**Links:**\n- Alternative Official English - [K MANGA](https://kmanga.kodansha.com/title/10010/episode/325146) (U.S. Only)",
-    "type": "shounen",
-    "status": "ongoing",
-    "year": 2022,
-    "createAt": "2022-02-15T16:47:55+00:00",
-    "updatedAt": "2023-12-05T20:15:34+00:00",
-    "language": "pt-br fr en ru vi id es-la fa es hi",
-    "lastChapter": "1149e279-6e48-4324-8d8f-ac169b9a265a",
-    "statistics": {
-      "rating": 8.938,
-      "numberOfVotes": 2679
-    },
-    "cover": "https://uploads.mangadex.org/covers/192aa767-2479-42c1-9780-8d65a2efd36a/04cafdd8-57b3-4892-a9a6-c1bb33b11335.jpg",
-    "authorId": "16e9e22c-160d-4370-a4f5-7c203c2ed9c6",
-    "authorName": "Urana Kei"
-  },
-  {
-    "id": "9745191c-d84d-48bf-a3a4-a4482a8096e9",
-    "title": "Kimi to Merry Bad End",
-    "type": "shoujo",
-    "status": "completed",
-    "year": 2019,
-    "createAt": "2023-10-31T15:28:19+00:00",
-    "updatedAt": "2023-10-31T15:28:56+00:00",
-    "language": "fr",
-    "lastChapter": "ee5e302d-d579-40ab-b99a-7b3002b2fd42",
-    "statistics": {
-      "rating": 8,
-      "numberOfVotes": 2
-    },
-    "cover": "https://uploads.mangadex.org/covers/9745191c-d84d-48bf-a3a4-a4482a8096e9/bc5ffc68-961f-45fc-91e7-f37cc246945f.png",
-    "authorId": "2502587f-cb3f-44a9-a391-1185bf7db723",
-    "authorName": "Sayo Shigure"
-  },
-  {
-    "id": "f8f3f045-01b5-4216-8f41-d947d8b448b0",
-    "title": "Youchien Wars",
-    "description": "This kindergarten is where the children of the world's most important figures attend; politicians, company presidents, oil tycoons, you name it! Legendary ex-assassin Rita is assigned to a secret mission to protect the children of the kindergarten from assassinations in exchange for freedom!? An Action/Comedy story about the world's \"safest\" kindergarten!",
-    "type": "shounen",
-    "status": "ongoing",
-    "year": 2022,
-    "createAt": "2022-09-21T10:32:44+00:00",
-    "updatedAt": "2023-12-23T12:05:24+00:00",
-    "language": "fr en es-la th pt-br",
-    "lastChapter": "7420b2e1-0ca8-4118-88f8-c56208bd1a66",
-    "statistics": {
-      "rating": 9.3824,
-      "numberOfVotes": 1242
-    },
-    "cover": "https://uploads.mangadex.org/covers/f8f3f045-01b5-4216-8f41-d947d8b448b0/f1ba120a-2086-4909-9b01-81ceae458e11.jpg",
-    "authorId": "0c2da5df-321e-4cc0-93ff-583d92cd2b39",
-    "authorName": "Chiba Yuu"
-  },
-  {
-    "id": "8a507b2a-b29e-4ce6-9237-6da23661df1d",
-    "title": "Code Adam",
-    "description": "They were trained as children to become super-soldiers. Human beings literally created in a lab to fight on the front lines of a bloody war. But when the war ends, what’s to be done with the human-weapons? The subject of brutal experiments, some choose to break free and search for a cure before their own powers consume them.  \n  \nFr:||  \nEnfants, ils étaient entraînés à devenir de super-soldats. Des être humains littéralement créés dans un laboratoire pour se battreau front d'une guerre sanglante. Mais lorsque la guerre prend fin, que faire d'armes humaines ? Sujets d'expériences brutales, certains choisissent de se libérer et de chercher pour un remède avant que leur propre pourvoir ne les consume.||",
+    "id": "eb2d1a45-d4e7-4e32-a171-b5b029c5b0cb",
+    "title": "Kumo Desu ga, Nani ka?",
+    "description": "When a mysterious explosion killed an entire class full of high school students, the souls of everyone in class were transported into a fantasy world and reincarnated. While some students were reincarnated as princes or prodigies, others were not as blessed.  \nOur heroine, who was the lowest in the class, discovered that she was reincarnated as a spider! Now at the bottom of the food chain, she needs to adapt to the current situation with willpower in order to live. Stuck in a dangerous labyrinth filled with monsters, it's eat or be eaten!  \nThis is the story of a spider doing whatever she can in order to survive!",
     "type": null,
     "status": "ongoing",
-    "year": 2019,
-    "createAt": "2020-01-18T10:09:06+00:00",
-    "updatedAt": "2023-08-25T11:23:44+00:00",
-    "language": "uk pt-br fr",
-    "lastChapter": "50534195-8a1f-4473-93bb-9c24905c4abf",
+    "year": 2015,
+    "createAt": "2018-12-12T11:03:14+00:00",
+    "updatedAt": "2024-01-21T02:51:15+00:00",
+    "language": "pt-br en ru pl tr fr es nl es-la it",
+    "lastChapter": "61ae7faf-db2a-4b78-9c00-b03dfdbdca43",
     "statistics": {
-      "rating": 8.2353,
-      "numberOfVotes": 17
+      "rating": 8.9279,
+      "numberOfVotes": 12677
     },
-    "cover": "https://uploads.mangadex.org/covers/8a507b2a-b29e-4ce6-9237-6da23661df1d/af15ef51-80d7-4f03-829e-f639e522f32f.jpg",
-    "authorId": "10b995a9-550d-4560-9224-00fce47be446",
-    "authorName": "Atterozen"
+    "cover": "https://uploads.mangadex.org/covers/eb2d1a45-d4e7-4e32-a171-b5b029c5b0cb/5c782437-96d9-4e47-942f-f6c133cfdc33.jpg",
+    "authorId": "7be584f3-1c1a-48ce-9205-4e5c7edc3fad",
+    "authorName": "Baba Okina"
   },
   {
-    "id": "9f2571b9-f1ba-42fd-82d2-6d371e79ae62",
-    "title": "Soara to Mamono no Ie",
-    "description": "One day a young warrior girl meets a dwarf who dedicates himself to constructing houses for monsters. A tale of building houses for myriads of creatures begins! After all, everyone needs a home.",
-    "type": "shounen",
+    "id": "09d29299-40cd-47b9-ae1a-fa8c70e520ce",
+    "title": "Genjitsu no Yohane: Unpolarized Reflexion",
+    "description": "The story of the girl everyone knows, but no one knows the story of. The daily life of Yohane, who runs a fortune teller's shop in a town by the sea, is relaxed, heartwarming, sometimes full of black magic? A short comic depicting the days of an illusion, near and far.",
+    "type": null,
+    "status": "completed",
+    "year": 2022,
+    "createAt": "2022-04-03T12:13:05+00:00",
+    "updatedAt": "2024-03-29T08:49:13+00:00",
+    "language": "fr it en pt-br ru",
+    "lastChapter": "9c07844e-a512-45a1-9063-b5e2dbbcb995",
+    "statistics": {
+      "rating": 7.9504,
+      "numberOfVotes": 141
+    },
+    "cover": "https://uploads.mangadex.org/covers/09d29299-40cd-47b9-ae1a-fa8c70e520ce/2b08fe35-1ae9-4cea-8ff7-9cfd87a83e40.jpg",
+    "authorId": "2cf2419f-5e62-4280-a3c8-b3d86b96283f",
+    "authorName": "Kimino Sakurako"
+  },
+  {
+    "id": "ed996855-70de-449f-bba2-e8e24224c14d",
+    "title": "Onii-chan Is Done For!",
+    "description": "Mahiro Oyama was just a normal erotic-game loving dude...until he woke up one morning as a woman! Turns out his mad-scientist little sister, Mihari, tried out one of her new experiments on him...with a disastrous outcome, as far as Mahiro's concerned! But Mihari is as determined to study him as he is determined to go back to his shut-in, game-playing life, and one thing's for sure...life is going to get a whole lot weirder from here on out!\n\n*5th place of Tsugi Manga Awards, Category Webmanga  \n  \n- **Retail:** (Direct Retail From the Mangaka)  \n![](https://i.imgur.com/0e9KPgq.png) [Official Melon Books](https://www.melonbooks.co.jp/circle/index.php?circle_id=3753)  \n![](https://i.imgur.com/t9hf4kQ.png) [Official Toranoana](https://ec.toranoana.shop/tora/ec/cot/circle/2UPA116P847KdC6Rd687/all/)  \n![](https://i.imgur.com/lGJEbPa.png) [Official DLSite](https://www.dlsite.com/home/circle/profile/=/maker_id/RG40614.html) (jp)",
+    "type": "seinen",
     "status": "ongoing",
-    "year": 2021,
-    "createAt": "2021-12-01T15:30:28+00:00",
-    "updatedAt": "2023-12-02T13:42:00+00:00",
-    "language": "pt-br fr tr en vi id",
-    "lastChapter": "8c87c614-9ef1-49e6-a58b-e18f9dc804ab",
+    "year": null,
+    "createAt": "2019-03-04T05:30:23+00:00",
+    "updatedAt": "2024-03-18T18:12:05+00:00",
+    "language": "id pt-br en pl zh-hk it fr hu ru uk vi tr cs es-la es hi de",
+    "lastChapter": "d925aca5-afc0-4fa4-afd2-f4ab4f77ea13",
     "statistics": {
-      "rating": 9.0508,
-      "numberOfVotes": 708
+      "rating": 8.9981,
+      "numberOfVotes": 4167
     },
-    "cover": "https://uploads.mangadex.org/covers/9f2571b9-f1ba-42fd-82d2-6d371e79ae62/5350a4d6-4e10-4216-ae18-2d08cca5e6fd.jpg",
-    "authorId": "9af6bd46-0f7d-42b4-81b6-ce974305792d",
-    "authorName": "Yamaji Hidenori"
+    "cover": "https://uploads.mangadex.org/covers/ed996855-70de-449f-bba2-e8e24224c14d/f4432b76-4553-4641-b77d-ba07d02ba62c.jpg",
+    "authorId": "021d5e40-9a35-4df9-8514-e38e0c53f813",
+    "authorName": "Nekotoufu"
   },
   {
-    "id": "19cabfbe-f31b-48d6-ae92-d4b2f7f13073",
-    "title": "Please Behave, My Wife",
-    "description": "This is brought to you by the same author of \"My Wife Is From a Thousand Years Ago\". \n\n\"If you could go back in time, what would you do?\"\n\n\"I would go to the school entrance and wait for you every day to pursue you shamelessly until you're my girlfriend. What about you?\"\n\n\"Hmm... I will definitely carefully wait until I'm twenty-four to get to know you again, then gradually fall in love, then get married, and then ask you this question. I live cautiously because I'm afraid that the butterfly effect will make me lose you.\"",
+    "id": "c941e60f-4c23-420f-ab56-a1c81acac5ae",
+    "title": "Hybrid",
+    "description": "the Grand Hybrid, born from the union of angels and demons, is believed to possess the highest lineage among hybrids. When awakened, this extraordinary being, known as the ‘Apex Hybrid’, is said to have the power to blow up the universe.\n\nContrary to Jake’s desire for a simple and ordinary life, angels and devils eventually seek him out as the ultimate ‘Apex Hybrid’. They employ various strategies to convince him to join their respective sides.",
     "type": null,
     "status": "ongoing",
     "year": 2023,
-    "createAt": "2023-09-23T11:30:07+00:00",
-    "updatedAt": "2023-11-25T10:40:59+00:00",
-    "language": "en fr id",
-    "lastChapter": "dd7254de-43ce-4f5f-8608-0ecd666e80f3",
+    "createAt": "2023-12-03T12:39:53+00:00",
+    "updatedAt": "2023-12-03T12:57:59+00:00",
+    "language": "en fr",
+    "lastChapter": "536e7991-fd10-422e-ae9a-a66f2dc1be73",
     "statistics": {
-      "rating": 8.3345,
-      "numberOfVotes": 592
+      "rating": 6.5313,
+      "numberOfVotes": 32
     },
-    "cover": "https://uploads.mangadex.org/covers/19cabfbe-f31b-48d6-ae92-d4b2f7f13073/73ba705f-ee17-4b6b-96ec-9591ec919a11.jpg",
-    "authorId": "89e915bc-f19a-4cf9-beb0-85c49d0bf169",
-    "authorName": "花还没开 (Hua Hai Mei Kai)"
+    "cover": "https://uploads.mangadex.org/covers/c941e60f-4c23-420f-ab56-a1c81acac5ae/d8788cdf-b913-4171-b9ca-931d63c532c5.jpg",
+    "authorId": "ae73c982-8c5f-4173-9179-779913b624d9",
+    "authorName": "Leijeo"
   },
   {
-    "id": "da25c95f-e062-48ea-b5a0-9b51aeeddc05",
-    "title": "Zeikin de Katta Hon",
-    "description": "Ishidaira is a delinquent who visited the library for the first time since elementary school. But then, he was pointed out by Hayasemaru and Shirai, who works at the library, that he has not returned a book that he borrowed ten years ago. A manga about how Ishidaira went from trying to borrow a book from a library to working there instead.",
-    "type": "seinen",
+    "id": "8ef11280-30bc-434b-bf61-c61e092905ac",
+    "title": "Class de 2 Banme ni Kawaii Onna no Ko to Tomodachi ni Natta",
+    "description": "I, Maehara Maki, someone who couldn’t make any acquaintances or friends in high school, finally had someone I can hang out with outside of school. A girl.\n\nHer name was Asanagi-san. The boys in my class called her ‘The class’ second cutest girl’ behind her back.\n\nOn Fridays, she would refuse her best friend, Amami, ‘the cutest girl in class’ invitation just to hang out in my house with me.\n\nTogether, we played games, watched some movies, read some manga while eating junk foods like pizza and hamburgers, and chugging cola without a care in the world. To others, we may seem sloppy, but it was a precious, secret time together for Asanagi-san and myself.",
+    "type": null,
     "status": "ongoing",
-    "year": 2021,
-    "createAt": "2022-02-10T16:23:59+00:00",
-    "updatedAt": "2023-12-10T16:02:10+00:00",
-    "language": "en pt-br es-la fr id",
-    "lastChapter": "c8afbf47-12c8-4ced-a3cf-09913f42b217",
-    "statistics": {
-      "rating": 9.2111,
-      "numberOfVotes": 1009
-    },
-    "cover": "https://uploads.mangadex.org/covers/da25c95f-e062-48ea-b5a0-9b51aeeddc05/cfa6c4db-8b08-4aee-9542-82a01a3afcb8.jpg",
-    "authorId": "e7662e18-cc76-43b1-bcd7-ce03e60ffa6d",
-    "authorName": "Zuino"
-  },
-  {
-    "id": "a07320a4-afcd-413a-a451-d69a448d0c28",
-    "title": "Usogui",
-    "description": "There are gamblers out there who even bet their lives as ante. But to secure the integrity of these life-threatening gambles, a violent and powerful organization by the name of “Kakerou” referees these games as a neutral party. Follow Baku Madarame a.k.a. Usogui (The Lie Eater) as he gambles against maniacal opponents at games – such as Escape the Abandoned Building, Old Maid, and Hangman – to ultimately “out-gamble” and control the neutral organization of Kakerou itself.  \n\n\n---\n\n**Links:**  \n- [OAV on ANN](https://www.animenewsnetwork.com/encyclopedia/anime.php?id=14163)",
-    "type": "seinen",
-    "status": "completed",
-    "year": 2006,
-    "createAt": "2018-01-31T08:18:13+00:00",
-    "updatedAt": "2023-06-22T13:17:12+00:00",
-    "language": "fr en es-la pt-br es ar it",
-    "lastChapter": "9b0dd3ed-8d09-4f5c-a8e1-0d300c92c66d",
-    "statistics": {
-      "rating": 9.3953,
-      "numberOfVotes": 1237
-    },
-    "cover": "https://uploads.mangadex.org/covers/a07320a4-afcd-413a-a451-d69a448d0c28/b74c8cce-42cd-4889-b75d-7944e63f9a14.jpg",
-    "authorId": "6099d939-5a3f-4c1d-b4ba-4ac440ebe9c0",
-    "authorName": "Sako Toshio"
-  },
-  {
-    "id": "418791c0-35cf-4f87-936b-acd9cddf0989",
-    "title": "The Fragrant Flower Blooms With Dignity",
-    "description": "In a certain place, there are two neighboring high schools. Chidori High School, a bottom-feeder boys' school where idiots gather, and Kikyo Girls' School, a well-established girls' school. Rintaro Tsumugi, a strong and quiet second year student at Chidori High School, meets Kaoruko Waguri, a girl who comes as a customer while helping out at his family's cake shop. Rintaro feels comfortable spending time with Kaoruko, but she is a student at Kikyo Girls, a neighboring school that thoroughly dislikes Chidori High. This is the story of two people who are so close and yet so far apart.\n___\n- [Official Twitter (JA)](https://twitter.com/kaoruhana_mp)",
-    "type": "shounen",
-    "status": "ongoing",
-    "year": 2021,
-    "createAt": "2021-11-10T17:30:57+00:00",
-    "updatedAt": "2023-12-27T11:44:18+00:00",
-    "language": "pt-br en fr vi id es-la ar",
-    "lastChapter": "d9606fb9-d589-4466-966f-91b1e9a6e6f6",
-    "statistics": {
-      "rating": 9.3561,
-      "numberOfVotes": 7963
-    },
-    "cover": "https://uploads.mangadex.org/covers/418791c0-35cf-4f87-936b-acd9cddf0989/6ff086ca-2e3d-4811-abd2-d77bf5dfdb71.jpg",
-    "authorId": "3d3ec54f-2eb7-4fb7-b2eb-0372c9f1b92e",
-    "authorName": "Mikami Saka"
-  },
-  {
-    "id": "f7888782-0727-49b0-95ec-a3530c70f83b",
-    "title": "Hajime no Ippo - The First Step",
-    "description": "Makunouchi Ippo is an ordinary high school student in Japan. Since he spends most of his time away from school helping his mother run the family business, he doesn't get to enjoy his younger years like most teenagers. Always a target for bullying at school, Ippo's life is one of hardship. One of these after-school bullying sessions turns Ippo's life around for the better, as he is saved by a boxer named Takamura. He decides to follow in Takamura's footsteps and train to become a boxer, giving his life direction and purpose. Ippo's path to perfecting his pugilistic prowess is just beginning.\n\nOfficial Release:\n- Indonesian release by Level Comics as **Fight!! Ippo** (2006-ongoing)",
-    "type": "shounen",
-    "status": "ongoing",
-    "year": 1989,
-    "createAt": "2018-02-26T23:51:18+00:00",
-    "updatedAt": "2024-01-23T17:46:39+00:00",
-    "language": "en ar fr es pt-br ru pl",
-    "lastChapter": "de712b82-3cc6-414f-ae7e-95cf578a03ec",
-    "statistics": {
-      "rating": 9.3913,
-      "numberOfVotes": 2438
-    },
-    "cover": "https://uploads.mangadex.org/covers/f7888782-0727-49b0-95ec-a3530c70f83b/c0e294d0-2915-4b7d-93e0-1ac787a7c7a7.jpg",
-    "authorId": "c6c60b88-c03c-46f1-b66d-bda51287d578",
-    "authorName": "Morikawa George"
-  },
-  {
-    "id": "d09c8abd-24ec-41de-ac8b-b6381a2f3a63",
-    "title": "Telework Yotabanashi",
-    "description": "Nokoru Mitsuhashi, a Systems Engineer working for a black company, has improved his quality of life by introducing telework. As he arranges the interior design of his room and becomes more involved with his balcony, he meets his neighbor, Natsu Izumi, a graduate student. This is the story of how one man met his future wife through teleworking, and how they got married after many ups and downs.",
-    "type": "seinen",
-    "status": "completed",
     "year": 2022,
-    "createAt": "2022-11-02T12:04:11+00:00",
-    "updatedAt": "2023-11-19T00:56:31+00:00",
-    "language": "pt-br ru fr it en ro es-la id tr uk fa",
-    "lastChapter": "4ac2fc5a-104a-4401-b556-798fbe0a87e8",
+    "createAt": "2022-07-27T07:46:16+00:00",
+    "updatedAt": "2024-02-15T00:01:28+00:00",
+    "language": "pt-br en vi id es es-la ru fr",
+    "lastChapter": "a5020fa3-f2a7-4a68-8c1e-d53e98416449",
     "statistics": {
-      "rating": 9.3054,
-      "numberOfVotes": 6202
+      "rating": 9.2491,
+      "numberOfVotes": 2914
     },
-    "cover": "https://uploads.mangadex.org/covers/d09c8abd-24ec-41de-ac8b-b6381a2f3a63/66c7de64-3449-4434-bd87-60a7c3400a1f.jpg",
-    "authorId": "93947a6f-fca9-4a76-8d1a-0e68567b0690",
-    "authorName": "Yamada Kintetsu"
+    "cover": "https://uploads.mangadex.org/covers/8ef11280-30bc-434b-bf61-c61e092905ac/1550d1d9-b033-4b54-a10e-bd2eb84b00ab.jpg",
+    "authorId": "5bcc454a-9a64-4510-b130-052dc5ddd44f",
+    "authorName": "Takata"
+  },
+  {
+    "id": "ed5dddc0-999d-4fd2-a702-9fef1ec2c955",
+    "title": "Blue Box",
+    "description": "Taiki Inomata is on the boys' badminton team at sports powerhouse Eimei Junior and Senior High. He's in love with basketball player Chinatsu Kano, the older girl he trains alongside every morning in the gym. One Spring day, their relationship takes a sharp turn ... And thus begins this brand-new series of love, sports and youth!\n\n---\nOfficial Release:\n- Indonesian release by Elex Media (2023)",
+    "type": "shounen",
+    "status": "ongoing",
+    "year": 2021,
+    "createAt": "2021-11-07T14:24:23+00:00",
+    "updatedAt": "2024-03-05T18:16:47+00:00",
+    "language": "vi fr pt-br id tl en ar tr ro es-la kk uk th hu",
+    "lastChapter": "302f0776-5670-48b3-9527-0580f2ae8fea",
+    "statistics": {
+      "rating": 9.0153,
+      "numberOfVotes": 1310
+    },
+    "cover": "https://uploads.mangadex.org/covers/ed5dddc0-999d-4fd2-a702-9fef1ec2c955/cb11794c-955d-44f5-b903-f08c8eb45c9f.jpg",
+    "authorId": "0fe944fd-07f3-460c-b789-217980dfbb64",
+    "authorName": "Miura Kouji"
   },
   {
     "id": "7878c129-a33d-4bf9-b5d2-ff98cbe85bd6",
@@ -234,148 +121,261 @@
     "status": "ongoing",
     "year": 2021,
     "createAt": "2021-02-05T18:02:52+00:00",
-    "updatedAt": "2023-11-06T12:34:30+00:00",
+    "updatedAt": "2024-02-04T19:24:16+00:00",
     "language": "pt-br en fr ar vi tr es-la ru",
-    "lastChapter": "e2cddbe8-8fef-465a-b709-bd11244fb1e7",
+    "lastChapter": "7ec98ea1-d289-4411-91b1-85e51966f2ef",
     "statistics": {
-      "rating": 8.6633,
-      "numberOfVotes": 1773
+      "rating": 8.6899,
+      "numberOfVotes": 1896
     },
-    "cover": "https://uploads.mangadex.org/covers/7878c129-a33d-4bf9-b5d2-ff98cbe85bd6/1c7a6e58-e7b8-43d4-a873-75fbb59fb288.jpg",
+    "cover": "https://uploads.mangadex.org/covers/7878c129-a33d-4bf9-b5d2-ff98cbe85bd6/1a1a3695-edfa-4fbd-afc0-8989b4f15725.jpg",
     "authorId": "07a6a131-6567-4472-a08e-3ce84b5fc33a",
     "authorName": "Haruba Negi"
   },
   {
-    "id": "f29d4785-396a-494e-b48f-47d02f583276",
-    "title": "Fate/stay night [Unlimited Blade Works]",
-    "description": "The Holy Grail War is a battle royale among seven magi who serve as Masters. Masters, through the use of the command seals they are given when they enter the war, command Heroic Spirits known as Servants to fight for them in battle. In the Fifth Holy Grail War, Rin Tosaka is among the magi entering the competition. With her Servant, Archer, she hopes to obtain the ultimate prize—the Holy Grail, a magical artifact capable of granting its wielder any wish.\n\nOne of Rin's classmates, Emiya Shirou, accidentally enters the competition and ends up commanding a Servant of his own known as Saber. As they find themselves facing mutual enemies, Rin and Shirou decide to form a temporary alliance as they challenge their opponents in the Holy Grail War.",
+    "id": "b47b35d7-fa7f-4277-a626-5525f3ba20bb",
+    "title": "Mobile Suit Gundam SEED Destiny - The Edge",
+    "description": "Retelling of Mobile Suit Gundam SEED Destiny's story from Athrun Zala's point of view.",
     "type": "shounen",
-    "status": "ongoing",
-    "year": 2021,
-    "createAt": "2021-12-24T10:26:29+00:00",
-    "updatedAt": "2023-12-07T05:48:13+00:00",
-    "language": "fr en ru uk pt-br",
-    "lastChapter": "308904f7-57e3-4d1e-8570-52362030510f",
+    "status": "completed",
+    "year": 2004,
+    "createAt": "2018-07-21T03:52:17+00:00",
+    "updatedAt": "2023-12-26T19:57:33+00:00",
+    "language": "fr en pt-br",
+    "lastChapter": "b5753d8e-2dbf-440c-8145-5c805274790e",
     "statistics": {
-      "rating": 9.2268,
-      "numberOfVotes": 97
+      "rating": 8,
+      "numberOfVotes": 12
     },
-    "cover": "https://uploads.mangadex.org/covers/f29d4785-396a-494e-b48f-47d02f583276/99a1294f-b335-4335-b710-d4d789135fdd.jpg",
-    "authorId": "7b9374fb-9332-43d9-9371-ed5383ff95c6",
-    "authorName": "TYPE-MOON"
+    "cover": "https://uploads.mangadex.org/covers/b47b35d7-fa7f-4277-a626-5525f3ba20bb/fe23d079-1fef-4778-99d8-38450eacb446.jpg",
+    "authorId": "a51e19ff-34b0-49ff-b977-23661e820636",
+    "authorName": "Kuori Chimaki"
   },
   {
-    "id": "a96676e5-8ae2-425e-b549-7f15dd34a6d8",
-    "title": "Komi-san wa Komyushou Desu.",
-    "description": "Komi-san is a beautiful and admirable girl that no one can take their eyes off of. Almost the whole school sees her as the cold beauty that's out of their league, but Tadano Hitohito knows the truth: she's just really bad at communicating with others.\n\nKomi-san, who wishes to fix this bad habit of hers, tries to improve it with the help of Tadano-kun by achieving her goal of having 100 friends.",
-    "type": "shounen",
-    "status": "ongoing",
+    "id": "719e258b-e2aa-4f6b-9676-50118ad27f28",
+    "title": "LaLa",
+    "description": "Xia Yuxin's presence at school never fails to draw attention. She has a mature beauty about her, always poised, and exuding confidence in class. Being admired so much by her classmates, one would think she's a well-respected senior but in truth, it might be because she's a repeat student. Xia Yuxin has more to her elegant facade.\n\n\n---\n\n**Links:**\n- [Alternative official English](https://www.webcomicsapp.com/comic/Lala/5c0a4df8d5626e75ff1f2d11)",
+    "type": null,
+    "status": "completed",
     "year": 2016,
-    "createAt": "2018-11-22T23:31:37+00:00",
-    "updatedAt": "2024-01-03T18:40:27+00:00",
-    "language": "pt-br id vi cs ru es-la ar fa tr en fr pl mn it de uk ms hi tl hu nl ",
-    "lastChapter": "b3eee08d-f248-4b7f-80b6-f0baeff028f1",
+    "createAt": "2019-05-21T19:58:22+00:00",
+    "updatedAt": "2023-08-09T14:35:20+00:00",
+    "language": "en pt-br fr",
+    "lastChapter": "6be8a5d3-1869-473a-a8da-ef923903683c",
     "statistics": {
-      "rating": 8.9843,
-      "numberOfVotes": 19112
+      "rating": 8.053,
+      "numberOfVotes": 264
     },
-    "cover": "https://uploads.mangadex.org/covers/a96676e5-8ae2-425e-b549-7f15dd34a6d8/ef3ce0e5-19ff-4623-95fc-acf41afe1075.jpg",
-    "authorId": "4218b1ee-cde4-44dc-84c7-d9a794a7e56d",
-    "authorName": "Oda Tomohito"
+    "cover": "https://uploads.mangadex.org/covers/719e258b-e2aa-4f6b-9676-50118ad27f28/8225b051-05b0-42b5-98f9-ba7d753df851.jpg",
+    "authorId": "53eab755-ef7e-4961-b572-474c83da7295",
+    "authorName": "Lily Club (橘姬社)"
   },
   {
-    "id": "7f30dfc3-0b80-4dcc-a3b9-0cd746fac005",
-    "title": "Detective Conan",
-    "description": "Shinichi Kudo is a high school detective who sometimes works with the police to solve cases. During an investigation, he is attacked by members of a crime syndicate known as the Black Organization. They force him to ingest an experimental poison, but instead of killing him, the poison transforms him into a child. Adopting the pseudonym Conan Edogawa and keeping his true identity a secret, Kudo lives with his childhood friend Ran and her father Kogoro, who is a private detective.",
-    "type": "shounen",
+    "id": "ea3fc681-51fd-44d9-a83d-297c4c28e11b",
+    "title": "Love Agency",
+    "description": "A half-Swedish, half-Japanese girl who seems to have everything except experience with men is using a date coaching app to get used to flirting. However the guy she hits it off with actually uses the same app with a different coach!",
+    "type": "seinen",
     "status": "ongoing",
-    "year": 1994,
-    "createAt": "2018-01-21T06:05:49+00:00",
-    "updatedAt": "2023-11-03T17:12:42+00:00",
-    "language": "id en pl pt-br it ru es-la es vi ca ar tr fr mn bg uk",
-    "lastChapter": "5ecd2ebb-80dc-4dbb-aed4-a07d44717d33",
+    "year": 2023,
+    "createAt": "2023-04-25T02:07:17+00:00",
+    "updatedAt": "2024-03-27T11:10:49+00:00",
+    "language": "fr es-la tr it uk pt-br ro en vi ru id el",
+    "lastChapter": "88834337-9da1-4de2-9f51-270725221494",
     "statistics": {
-      "rating": 9.3093,
-      "numberOfVotes": 1772
+      "rating": 7.7908,
+      "numberOfVotes": 1171
     },
-    "cover": "https://uploads.mangadex.org/covers/7f30dfc3-0b80-4dcc-a3b9-0cd746fac005/a12426b3-c93e-4441-b53e-09671758d014.jpg",
-    "authorId": "102cd249-43fe-4d90-92fd-f620f68b2bc0",
-    "authorName": "Gosho Aoyama"
+    "cover": "https://uploads.mangadex.org/covers/ea3fc681-51fd-44d9-a83d-297c4c28e11b/1811cb41-e1bf-4843-94e1-fb95425f8695.jpg",
+    "authorId": "23141aa2-5074-4daf-882b-658b2c2e649b",
+    "authorName": "Akasaka Aka"
   },
   {
-    "id": "35b9f818-926b-4f4a-aa2b-0ac068986a73",
-    "title": "MagiLumiere Co., Ltd.",
-    "description": "Manga about a girl who was looking for a job and ended up in a corporation of magical girls fighting monsters.",
+    "id": "2683410b-8e2c-4f84-bd1d-16f448d4c062",
+    "description": "Rose is the ruler of the dominion of ‘White’, a small and poor land. She was getting along with her citizens and living a quaint, favorable life until foreign migrants kept increasing and she got involved in some odd situations?! The lively, entertaining, romance, fantasy story of a super OP ruler Rose and Yggdrasil, the grand sorcerer who wants to hide her away and protect her!\n\n---\nWhen the Kingdom of White was conquered 500 years ago, the king and his subjects were exiled to a small tract of wasteland covered in ice. There they endured cold and hunger, relying on the magic of Archmage Yggdrasil to build the world’s smallest self-governing territory. As the last heir to her family, Rose now rules over this land as its lord. Rescuing former citizens who have fallen prey to trafficking abroad, she pours her heart and soul into making them thrive at home. But first things first, she must fill up the treasury to fund this mission! The business-savvy lord invites dragons, dwarfs, and elves to join in the effort, turning White into a haven for all races. Yggdrasil couldn’t be prouder of this utopia in the making, but will Lord Rose ever get to leave her money troubles behind?\n\n---\n**Official Translations:**\n* [English](https://www.tappytoon.com/en/comics/patience-my-lady)\n* [Chinese (Simplified) / 汉语](https://www.dongmanmanhua.cn/FANTASY/qingrenrenwodelingzhudaren/list?title_no=1815)\n* [Chinese (Traditional) / 漢語](https://www.webtoons.com/zh-hant/fantasy/lord-calmdown/list?title_no=3578)\n* [Japanese / 日本語](https://manga.line.me/product/periodic?id=Z0001625)",
+    "type": "shounen",
+    "status": "completed",
+    "year": 2021,
+    "createAt": "2021-10-10T14:54:18+00:00",
+    "updatedAt": "2023-12-29T18:28:54+00:00",
+    "language": "ru uk fr tr en it",
+    "lastChapter": "9cd48b3a-32d7-46f7-a669-5bf6d6b65fbe",
+    "statistics": {
+      "rating": 8.0694,
+      "numberOfVotes": 72
+    },
+    "cover": "https://uploads.mangadex.org/covers/2683410b-8e2c-4f84-bd1d-16f448d4c062/a1acdb28-551b-468b-a817-72645f9ecfc7.jpg",
+    "authorId": "6c09219b-5c51-4f55-8e24-695a1da5134f",
+    "authorName": "daybook"
+  },
+  {
+    "id": "9eb78304-0436-484d-9a79-a925b45e2731",
+    "title": "Wind Breaker",
+    "description": "Haruka Sakura wants nothing to do with weaklings—he's only interested in the strongest of the strong. He's just started at Furin High School, a school of degenerates known only for their brawling strength—strength they use to protect their town from anyone who wishes it ill. But Haruka's not interested in being a hero or being part of any sort of team—he just wants to fight his way to the top!",
     "type": "shounen",
     "status": "ongoing",
     "year": 2021,
-    "createAt": "2021-11-03T13:16:12+00:00",
-    "updatedAt": "2023-12-12T16:03:03+00:00",
-    "language": "en es-la pt-br ru fr th",
-    "lastChapter": "1a3771d7-efba-4b5c-9497-b7ff1512cc98",
+    "createAt": "2021-01-26T14:15:30+00:00",
+    "updatedAt": "2024-03-27T22:33:14+00:00",
+    "language": "ru fr en pt-br vi es-la fa",
+    "lastChapter": "f8d11669-890d-49ab-acbd-08938006afdd",
     "statistics": {
-      "rating": 8.7457,
-      "numberOfVotes": 468
+      "rating": 8.816,
+      "numberOfVotes": 250
     },
-    "cover": "https://uploads.mangadex.org/covers/35b9f818-926b-4f4a-aa2b-0ac068986a73/6ae3698a-eb4b-4c76-8d93-fcbae0dd86b8.jpg",
-    "authorId": "39ccdbc8-d755-4f1e-9c56-5f93729e31e6",
-    "authorName": "Sekka Iwata"
+    "cover": "https://uploads.mangadex.org/covers/9eb78304-0436-484d-9a79-a925b45e2731/41356ba8-c98d-4b0c-bbc5-b6567cd89de2.jpg",
+    "authorId": "50b1e6de-a9ae-41f5-986c-f2e08632470f",
+    "authorName": "Nii Satoru"
   },
   {
-    "id": "9422a147-c0c8-400d-9106-57cb8ece3dba",
-    "title": "Kimi wa Meido-sama",
-    "description": "A girl in a maid uniform came to Hitoyoshi's house looking for a job. Her previous job was an assassin, and she is skilled in all the deadly arts, but she's a complete beginner at housework. Hitoyoshi was confused by the strange request and sent her away. But then she saved Hitoyoshi from a deadly accident, and he thought maybe they can make this work? This is a story about a maid who was a cold-hearted killer learning about new emotions. A maid who lived a lonely life in the underworld finally finding family. The start of an enjoyable daily life.",
+    "id": "418791c0-35cf-4f87-936b-acd9cddf0989",
+    "title": "The Fragrant Flower Blooms With Dignity",
+    "description": "In a certain place, there are two neighboring high schools. Chidori High School, a bottom-feeder boys' school where idiots gather, and Kikyo Girls' School, a well-established girls' school. Rintaro Tsumugi, a strong and quiet second year student at Chidori High School, meets Kaoruko Waguri, a girl who comes as a customer while helping out at his family's cake shop. Rintaro feels comfortable spending time with Kaoruko, but she is a student at Kikyo Girls, a neighboring school that thoroughly dislikes Chidori High. This is the story of two people who are so close and yet so far apart.\n___\n**Links:**\n- [Official Twitter (JP)](https://twitter.com/kaoruhana_mp)\n- Official English - [K MANGA](https://kmanga.kodansha.com/title/10023/episode/320130) (U.S. Only | Simulpub)",
     "type": "shounen",
     "status": "ongoing",
-    "year": 2020,
-    "createAt": "2020-09-03T03:06:31+00:00",
-    "updatedAt": "2023-11-23T03:01:25+00:00",
-    "language": "vi ru id en pt-br tr fr",
-    "lastChapter": "84db4be1-9ff9-49b4-a1ab-69cc80cddf5e",
+    "year": 2021,
+    "createAt": "2021-11-10T17:30:57+00:00",
+    "updatedAt": "2024-03-21T12:41:07+00:00",
+    "language": "pt-br en fr vi id es-la ar",
+    "lastChapter": "000ea07d-c880-4371-a385-97429daa46cf",
     "statistics": {
-      "rating": 8.8202,
-      "numberOfVotes": 2480
+      "rating": 9.3574,
+      "numberOfVotes": 8353
     },
-    "cover": "https://uploads.mangadex.org/covers/9422a147-c0c8-400d-9106-57cb8ece3dba/8c3ca431-433a-4fde-bcb5-f60971f202db.jpg",
-    "authorId": "9a62d69b-dba0-4a4c-a3f5-498573069c91",
-    "authorName": "Shotan"
+    "cover": "https://uploads.mangadex.org/covers/418791c0-35cf-4f87-936b-acd9cddf0989/2304951d-bd3a-4442-abab-690bc532af52.jpg",
+    "authorId": "3d3ec54f-2eb7-4fb7-b2eb-0372c9f1b92e",
+    "authorName": "Mikami Saka"
   },
   {
-    "id": "70cf1e9a-e3a1-4318-9f1b-8e85075f0059",
-    "title": "The Final Boss Became A Player",
-    "description": "A recently launched game in its closed beta testing phase fell victim to a mysterious AI hack, transforming what was once a tranquil and delightful adventure into an inescapable pit of monsters. Influenced by this AI, the final boss gained sentience and swore to defend its own virtual realm, determined to reclaim the game's former glory!",
+    "id": "5763292a-3bb7-43e8-a0fc-53f2140253a2",
+    "title": "Bungo",
+    "description": "In a town with no baseball team, young Bungo spends his days throwing the ball he received as a gift against a wall until Yukio Noda, Japanese representative youth baseball player, appears before him and an unexpected showdown ensues! After a chance meeting in middle school, these two enroll in Seio Senior where they struggle to make it to Koshien with everything they have.",
+    "type": "seinen",
+    "status": "ongoing",
+    "year": 2014,
+    "createAt": "2019-07-02T00:19:21+00:00",
+    "updatedAt": "2024-02-29T10:40:27+00:00",
+    "language": "en pt-br es fr ru",
+    "lastChapter": "4903e113-805e-48e2-b013-33d56147fe96",
+    "statistics": {
+      "rating": 8.6776,
+      "numberOfVotes": 397
+    },
+    "cover": "https://uploads.mangadex.org/covers/5763292a-3bb7-43e8-a0fc-53f2140253a2/177a4280-6dd8-4576-a778-92a9e489346b.jpg",
+    "authorId": "19a245fd-0f16-417f-b345-a56eed1045d4",
+    "authorName": "Ninomiya Yuuji"
+  },
+  {
+    "id": "a4a4250d-14a0-4b45-83ac-c732091b4eba",
+    "title": "My Daughter Is the Final Boss",
+    "description": "Lee Seojun could only watch as his daughter, the witch Lee Seola, turned into the wicked final boss who destroyed the world and brought upon his death. Though never a good dad, as he loses consciousness, Seojun gets a new quest: \"Change the Future.\" Upon awakening, he sees a 5-year-old Seola standing before him. Now, Seojun must raise Seola to avoid the misfortunes that originally turned her wicked and become the caring father she never had. The price of failure? Only the end of the world.\n\n---\nMy daughter destroyed the world. At the end of the divergence, I died helplessly. When I opened my eyes again, my five-year-old daughter was in front of me.\n\n*Unique Quest: Changing the Future*\nStop Seol-ah Lee's five misfortunes. (0/5) \n\nI was given another chance. If I raised her incorrectly, the world will perish.\n\n---\n**Original Webtoon:** [Daum](https://webtoon.kakao.com/content/%EB%82%B4-%EB%94%B8%EC%9D%80-%EC%B5%9C%EC%A2%85-%EB%B3%B4%EC%8A%A4/2964), [KakaoPage](https://page.kakao.com/content/59097539)\n\n**Official Translations:**\n* [English](https://tapas.io/series/my-daughter-is-the-final-boss/info)\n* [Chinese (Simplified) / 汉语](https://www.kuaikanmanhua.com/web/topic/16387)\n* [French / Français](https://piccoma.com/fr/product/441)\n* [Japanese / 日本語](https://piccoma.com/web/product/115453)",
     "type": null,
     "status": "ongoing",
-    "year": 2024,
-    "createAt": "2023-12-26T17:42:50+00:00",
-    "updatedAt": "2024-01-23T13:59:37+00:00",
-    "language": "fr en",
-    "lastChapter": "ee740200-865e-4af8-acdb-c4a700e2e7d3",
+    "year": 2022,
+    "createAt": "2022-04-14T16:44:57+00:00",
+    "updatedAt": "2023-04-10T05:04:25+00:00",
+    "language": "fr pt-br pl it en",
+    "lastChapter": "bc93e1f5-b2bb-4756-a140-4ad0cea0f2a0",
     "statistics": {
-      "rating": 8.2,
-      "numberOfVotes": 5
+      "rating": 8.7,
+      "numberOfVotes": 220
     },
-    "cover": "https://uploads.mangadex.org/covers/70cf1e9a-e3a1-4318-9f1b-8e85075f0059/96f4f60b-760b-4aba-bc36-32cf9696fe6e.jpg",
-    "authorId": "90d2ae8b-3ead-4a53-9dc7-bbbe849a45eb",
-    "authorName": "Caimoge"
+    "cover": "https://uploads.mangadex.org/covers/a4a4250d-14a0-4b45-83ac-c732091b4eba/90295f87-e093-4731-8d5e-7e44cb33d0ac.jpg",
+    "authorId": "516ee0b5-8e24-4eae-9f97-e5be30cca6ea",
+    "authorName": "RK Studio (RK스튜디오)"
   },
   {
-    "id": "2fec6641-beb1-4ae9-a32f-204dd06688ac",
-    "title": "The Angel Next Door Spoils Me Rotten",
-    "description": "A HEAVENLY ENCOUNTER!\nMahiru is a beautiful girl whose classmates all call her an “angel.” Not only is she a star athlete with perfect grades—she’s also drop-dead gorgeous. Amane‚ an average guy and self-admitted slob‚ has never thought much of the divine beauty‚ despite attending the same school. Everything changes‚ however‚ when he happens to see Mahiru sitting alone in a park during a rainstorm. Thus begins the strange relationship between this incredibly unlikely pair!\n\n*Adapted from the Light Novel with the same name, \nSerialized in Square Enix Web Magazine [Gangan Online](https://www.ganganonline.com/title/1480)*",
+    "id": "dd9689c2-46f0-4e80-9c31-ea27cf48044f",
+    "title": "The Blooming Baby Boss Lady",
+    "description": "\"Gloriosa... You ugly thing that can't even bloom a single petal, you'd make perfect food for the trees-.\"\n\nI was one of thirty-seven children of the Elvador family of the Flower People, and I was sacrificed to the tree that was the foundation of my family. Then, with the help of my betrothed, Arvid, my family was destroyed and I was only saved by my death.\n\nWhen I woke up, I was transported back in time...? Do I have to relive my horrible past all over again? I wasn’t even saved by dying?! ...If I have to start all over again, I'll save myself in this life-! This is Gloriosa's intense and endearing redemption.",
+    "type": null,
+    "status": "ongoing",
+    "year": 2023,
+    "createAt": "2023-08-27T02:31:47+00:00",
+    "updatedAt": "2024-03-29T13:29:18+00:00",
+    "language": "fr en pl pt-br",
+    "lastChapter": "29e58888-391e-456e-b991-24af9ab7153d",
+    "statistics": {
+      "rating": 8.5238,
+      "numberOfVotes": 147
+    },
+    "cover": "https://uploads.mangadex.org/covers/dd9689c2-46f0-4e80-9c31-ea27cf48044f/ace01b19-e8c3-4482-83a3-be0f92a339fe.jpg",
+    "authorId": "49561b61-aac5-40e1-b559-85b92ed7dfeb",
+    "authorName": "Eun Ryeowon"
+  },
+  {
+    "id": "ce7cd7b0-e595-4f0d-98e8-447da10d652d",
+    "title": "Yozakura-san Chi no Daisakusen",
+    "description": "Taiyo Asano is a super shy high school student and the only person he can talk to is his childhood friend, Mutsumi Yozakura. It turns out that Mutsumi is the daughter of the ultimate spy family! Even worse, Mutsumi is being harassed by her overprotective, nightmare of a brother, Kyoichiro. What drastic steps will Taiyo have to take to save Mutsumi?! A spy family comedy - the mission begins!\r\n\r\n---\r\nOfficial Release:\r\n- Indonesian release by Elex Media as **Mission: Yozakura Family** (2023)",
     "type": "shounen",
     "status": "ongoing",
-    "year": 2022,
-    "createAt": "2022-01-05T18:03:22+00:00",
-    "updatedAt": "2024-01-21T12:17:57+00:00",
-    "language": "pt-br en id tr uk vi fr de zh es-la",
-    "lastChapter": "0a1735b9-9c4a-4a67-b092-2a9469770188",
+    "year": 2019,
+    "createAt": "2020-02-20T08:37:14+00:00",
+    "updatedAt": "2024-03-23T11:12:49+00:00",
+    "language": "vi pt-br es-la ru it en fr id",
+    "lastChapter": "b35953c0-c679-4c6a-9824-eae945995404",
     "statistics": {
-      "rating": 9.2409,
-      "numberOfVotes": 3533
+      "rating": 8.7274,
+      "numberOfVotes": 1082
     },
-    "cover": "https://uploads.mangadex.org/covers/2fec6641-beb1-4ae9-a32f-204dd06688ac/ec56e4db-c5b3-431e-a6ac-086f87aebfb0.jpg",
-    "authorId": "0edd2663-49bc-48d6-a05c-c92a655b9c13",
-    "authorName": "Saeki-san"
+    "cover": "https://uploads.mangadex.org/covers/ce7cd7b0-e595-4f0d-98e8-447da10d652d/d73ab1ee-e887-4ce1-b857-314c7afda820.jpg",
+    "authorId": "e4a574d5-2a95-4c5e-9952-ba10c6fbefd6",
+    "authorName": "Gondaira Hitsuji"
+  },
+  {
+    "id": "80d288be-bdb9-4637-804e-02b2f89ad2d8",
+    "title": "Jungle Juice",
+    "description": "Jang Suchan is an extraordinary college student at the top of the social food chain. But underneath the perfect façade, he hides a pair of insect wings that suddenly grew when he used a mysterious bug spray called \"Jungle Juice.” Suchan's life crumbles when he bares his wings to the world to save someone's life. When all hope seems lost, Suchan stumbles upon a hidden world of insect humans where everyone is accepted for what they are.\n\nBut the law of the jungle governs this secret society and all must fend for themselves in order to survive.",
+    "type": null,
+    "status": "ongoing",
+    "year": 2020,
+    "createAt": "2021-01-14T03:03:44+00:00",
+    "updatedAt": "2024-03-16T01:42:43+00:00",
+    "language": "fa en pl pt-br fr id tr hu",
+    "lastChapter": "14033a06-f77a-4e0c-92e6-9b9115d2332c",
+    "statistics": {
+      "rating": 8.7626,
+      "numberOfVotes": 737
+    },
+    "cover": "https://uploads.mangadex.org/covers/80d288be-bdb9-4637-804e-02b2f89ad2d8/dfdb5c3b-d1eb-48df-abb4-7c22816477d3.png",
+    "authorId": "b85f4c5f-fdba-487e-b11a-1eed58a577eb",
+    "authorName": "Youn In-Wan"
+  },
+  {
+    "id": "6ab38ce9-e668-49b1-a89f-bb294e58809a",
+    "title": "The Creator is on Hiatus",
+    "description": "My name is Yu Il-shin, and I'm a shitty, third-rate novelist.\nMy name might be \"Only God\" in Korean, but don't actually pray to me. It's just a name.\n\nThis one random day, I finally get my wish of awakening... but my ability is kind of strange.\n\nI'm able to connect to a small world through my smartphone, where the weak ants there worship me as god!",
+    "type": null,
+    "status": "ongoing",
+    "year": null,
+    "createAt": "2022-10-19T21:41:00+00:00",
+    "updatedAt": "2023-03-27T06:50:14+00:00",
+    "language": "en pt-br fr",
+    "lastChapter": "e58142c3-339a-4ba3-a47e-d07f66ec300b",
+    "statistics": {
+      "rating": 8.0185,
+      "numberOfVotes": 271
+    },
+    "cover": "https://uploads.mangadex.org/covers/6ab38ce9-e668-49b1-a89f-bb294e58809a/51823fca-3eed-4d6d-a972-c773839ba614.jpg",
+    "authorId": "0a1bc14e-6264-48ae-981e-997095048615",
+    "authorName": "canine"
+  },
+  {
+    "id": "c8f0f000-35be-4f16-9b68-f2aea7e67fdb",
+    "title": "Murim RPG Simulation",
+    "description": "A scout in the infamous Demon Cult, Seolhwi is on a routine patrol when his squad unexpectedly encounters a fearsome master of the Mount Hua Sect, the sworn enemies of the Demon Cult. Without warning, the Mount Hua Cult master slaughters the entire squad. As Seolhwi lies dying, lamenting years of service to the cult with nothing to show for it, he is suddenly faced with a video game prompt, asking if he would like to start again. Given the opportunity to start over and make different choices, Seolhwi vows to survive and become stronger so he can rise to the top of the Demon Cult.\n\n---\n\n- [Official Traditional Chinese Translation](https://www.webtoons.com/zh-hant/martial-arts/tianmowanjia/list?title_no=3965)\n\n- [Official Simplified Chinese Translation](https://www.dongmanmanhua.cn/BOY/tianmoyucheng/list?title_no=1982)\n\n- [Official Indonesian Translation](https://www.webtoons.com/id/fantasy/murim-rpg-simulation/list?title_no=3701)\n\n- [Official Japanese Translation](https://manga.line.me/product/periodic?id=Z0001851)",
+    "type": null,
+    "status": "ongoing",
+    "year": 2021,
+    "createAt": "2021-10-12T03:13:30+00:00",
+    "updatedAt": "2024-01-06T19:14:28+00:00",
+    "language": "fr en",
+    "lastChapter": "7f7c7738-2d84-4514-ab09-ac5b8107ddfb",
+    "statistics": {
+      "rating": 8.3762,
+      "numberOfVotes": 210
+    },
+    "cover": "https://uploads.mangadex.org/covers/c8f0f000-35be-4f16-9b68-f2aea7e67fdb/fcac604f-129e-4d7f-82f6-6e4b13009f96.jpg",
+    "authorId": "96c9e930-4226-4fb2-beaf-cac86639d7c4",
+    "authorName": "Hyung Geun Cho (조형근)"
   }
 ]

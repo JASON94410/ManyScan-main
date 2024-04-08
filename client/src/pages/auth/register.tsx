@@ -1,16 +1,15 @@
 import { useState,FormEvent } from 'react';
-import { useRouter } from 'next/router';
+import Router from 'next/router';
 
 export default function RegisterForm() {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-  const [showModal, setShowModal] = useState(false);
-  const router = useRouter();
+
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-   
+
     if (password !== confirmPassword) {
       alert('Les mots de passe ne correspondent pas.');
       return;
@@ -36,10 +35,7 @@ export default function RegisterForm() {
         throw new Error('Une erreur est survenue lors de l\'inscription');
       }
 
-      setShowModal(true);
-                setTimeout(() => {
-                    router.push('/')
-                }, 3000);
+      alert('Inscription réussie');
       // Gérer la réponse ici, comme la redirection vers une autre page
     } catch (error: any) {
       alert(error.message);
@@ -48,18 +44,11 @@ export default function RegisterForm() {
 
   const handleBack = () => {
     // Redirection vers la page d'accueil
-    router.push('/');
+    Router.push('/');
   }
     return (
         <div className='relative h-screen bg-gray-100'>
-         {showModal && (
-            <div className="modal-overlay">
-                <div className="modal-content">
-                    Connecté avec succès!
-                    
-                </div>
-            </div>
-        )}
+        {/* Overlay flou */}
         <div className='absolute inset-0 bg-gray-500 bg-opacity-30 backdrop-blur-md'>
         <div className='absolute top-0 left-0 p-4'>
                 <button

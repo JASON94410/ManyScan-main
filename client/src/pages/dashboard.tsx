@@ -1,53 +1,51 @@
 
-import React, { useState, useEffect, use } from 'react';
+import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
-import { RxAvatar } from "react-icons/rx";
-import { FaBookOpen } from "react-icons/fa";
-import { FaUsers } from "react-icons/fa";
-import { BiError } from "react-icons/bi";
+import { RxAvatar } from 'react-icons/rx';
+import { FaBookOpen } from 'react-icons/fa';
+import { FaUsers } from 'react-icons/fa';
+import { BiError } from 'react-icons/bi';
 import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend,
+    Chart as ChartJS,
+    CategoryScale,
+    LinearScale,
+    BarElement,
+    Title,
+    Tooltip,
+    Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 import InfoCard from '../cards/InfoCard';
 import { ReviewCard } from '../cards/ReviewCard';
 import { useAuth } from '../pages/auth/authContext';
-import { getCookie } from 'cookies-next';
-import { get } from 'http';
 
 
 
 ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend
+    CategoryScale,
+    LinearScale,
+    BarElement,
+    Title,
+    Tooltip,
+    Legend
 );
 
 interface User {
   _id: string;
   username: string;
+  email: string;
   role: string;
   isOnline: boolean;
-  
+  createdAt: string;
 }
 
-interface UsersResponse {
-  data: User[];
-  // Ajoutez d'autres propriétés de la réponse ici si nécessaire
+interface DashboardProps {
+    loggedInUserCount: number;
 }
 
 interface MangaStat {
-  mangaName: string;
-  commentCount: number;
+    mangaName: string;
+    commentCount: number;
 }
 
 const MangaStatsGraph = ({ data }: { data: MangaStat[] }) => {
@@ -66,7 +64,7 @@ const MangaStatsGraph = ({ data }: { data: MangaStat[] }) => {
 
  
 
-  return <Bar data={chartData} />;
+    return <Bar data={chartData} />;
 };
 
 export default function Dashboard() {
@@ -78,11 +76,10 @@ export default function Dashboard() {
   const [activeTab, setActiveTab] = useState('home');
   const [messages, setMessages] = useState<Message[]>([]);
   const [reviews, setReviews] = useState<Review[]>([]);
-  const [users, setUsers] = useState<UsersResponse>({ data: [] });
-  const [unreadMessagesCount, setUnreadMessagesCount] = useState<number>(0);
+  const [users, setUsers] = useState<User[]>([]);
 
-  const  token  = getCookie('token') || '';
-  const role = getCookie('role') || 'User';
+  const { token } = useAuth();
+
 
   
   useEffect(() => {
@@ -90,8 +87,7 @@ export default function Dashboard() {
       try {
         const response = await fetch('http://localhost:8080/api/users/get-users', {
           headers: {
-            Authorization: `Bearer ${token}`,
-            Role: role,
+            Authorization: `Bearer ${token}`, 
           },
         });
   
@@ -100,7 +96,6 @@ export default function Dashboard() {
         }
   
         const data = await response.json();
-        console.log("Données reçues :", data);
         setUsers(data); // Mettez à jour la variable users avec les données obtenues
       } catch (error) {
         console.error("Erreur lors de la récupération des utilisateurs:", error);
@@ -130,7 +125,6 @@ export default function Dashboard() {
         email: string;
         message: string;
         picture?: string; 
-        read: boolean;
         createdAt: string; 
       }
 
@@ -140,10 +134,6 @@ export default function Dashboard() {
             const response = await fetch('http://localhost:8080/api/contact');
             const data = await response.json();
             setMessages(data);
-      
-            // Calculez le nombre de messages non lus après la mise à jour des messages
-            const unreadCount = data.filter((message: Message) => !message.read).length;
-            setUnreadMessagesCount(unreadCount);
           } catch (error) {
             console.error("Erreur lors de la récupération des messages:", error);
           }
@@ -153,7 +143,6 @@ export default function Dashboard() {
           fetchMessages();
         }
       }, [activeTab]);
-      
 
       interface Review {
         _id: string; 
@@ -177,37 +166,6 @@ export default function Dashboard() {
           fetchReviews();
         }
       }, [activeTab]);
-
-     
-        const markMessageAsRead = async (messageId: string) => {
-          const message = messages.find(msg => msg._id === messageId);
-  if (message && !message.read) {
-          try {
-            const response = await fetch(`http://localhost:8080/api/contact/${messageId}/mark-read`, {
-              method: 'PATCH',
-              headers: {
-                'Content-Type': 'application/json',
-                Authorization: `Bearer ${token}`, // Assurez-vous que l'authentification est correcte
-              },
-            });
-        
-            if (response.ok) {
-              console.log("Réponse du serveur:", await response.json());
-
-              // Mettre à jour l'état des messages et le compteur des messages non lus
-              setMessages(prevMessages =>
-                prevMessages.map(msg =>
-                  msg._id === messageId ? { ...msg, read: true } : msg
-                )
-              );
-              setUnreadMessagesCount(prevCount => prevCount - 1);
-            }
-          } catch (error) {
-            console.error("Erreur lors de la mise à jour du message comme lu:", error);
-          }
-        }
-        };
-     
       
   
 
@@ -222,10 +180,7 @@ export default function Dashboard() {
             <h2 className="text-lg font-semibold text-gray-300 mb-4">Menu</h2>
             <ul className="space-y-2">
               <li className={`${activeTab === 'home' ? 'bg-gray-700' : ''} hover:bg-gray-700 p-2 rounded`} onClick={() => setActiveTab('home')}>Accueil</li>
-              {/* <li className={`${activeTab === 'messages' ? 'bg-gray-700' : ''} hover:bg-gray-700 p-2 rounded`} onClick={() => setActiveTab('messages')}>Messages</li> */}
-              <li className={`${activeTab === 'messages' ? 'bg-gray-700' : ''} hover:bg-gray-700 p-2 rounded`} onClick={() => setActiveTab('messages')}>
-  Messages {unreadMessagesCount > 0 && <span className="badge">{unreadMessagesCount}</span>}
-</li>
+              <li className={`${activeTab === 'messages' ? 'bg-gray-700' : ''} hover:bg-gray-700 p-2 rounded`} onClick={() => setActiveTab('messages')}>Messages</li>
               <li className={`${activeTab === 'reviews' ? 'bg-gray-700' : ''} hover:bg-gray-700 p-2 rounded`} onClick={() => setActiveTab('reviews')}>Avis</li>
             </ul>
           </div>
@@ -272,26 +227,22 @@ export default function Dashboard() {
               </section>
               
               <section className="bg-white p-4 rounded-lg shadow flex-1">
-          <h2 className="font-semibold text-xl mb-3">Historique de connexion </h2>
+          <h2 className="font-semibold text-xl mb-3">Nouveaux Membres</h2>
           <div className="overflow-x-auto">
             <table className="min-w-full bg-white">
               <thead className="border-b">
                 <tr>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nom</th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Hors ligne/En Ligne</th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date d'inscription</th>
                 </tr>
               </thead>
               <tbody>
-              {Array.isArray(users.data) ? (
-    users.data.map((user) => (
-      <tr key={user._id}>
-        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{user.username}</td>
-        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{user.isOnline ? 'En ligne' : 'Hors ligne'}</td>
-      </tr>
-    ))
-  ) : (
-    <tr><td>Pas d'utilisateurs à afficher</td></tr>
-  )}
+  {Array.isArray(users) && users.map((user) => (
+    <tr key={user._id}>
+      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{user.username}</td>
+      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{user.createdAt || 'N/A'}</td>
+    </tr>
+  ))}
 </tbody>
             </table>
           </div>
@@ -320,7 +271,7 @@ export default function Dashboard() {
         </thead>
         <tbody>
         {messages.map((message) => (
-   <tr key={message._id} onClick={() => !message.read && markMessageAsRead(message._id)} className={message.read ? "" : "font-bold"}>
+  <tr key={message._id}>
     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{message.username}</td>
     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{message.message}</td>
     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{message.createdAt}</td>
